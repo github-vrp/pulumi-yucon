@@ -24,6 +24,6 @@ jobs:
       - uses: pulumi/actions@v3
         with:
           command: up
-          stack-name: vijay_patil / puluminewstart / dev
-         env:
+          stack-name: vijay_patil/puluminewstart/dev
+       env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
