@@ -25,5 +25,6 @@ jobs:
         with:
           command: up
           stack-name: vijay_patil/puluminewstart/dev
-       env:
+        env:
           PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
+
